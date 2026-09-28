@@ -1,16 +1,12 @@
 
 Project Title: Low-Cost Teaching Vehicle Model  
 Group Number: Project Group 19  
-Group Members: Shangkai Ji, Hongru Liu, Mo Zhou  
+Group Members: Shangkai Ji, Hongru Liu, Mo Zhou, Peiwen Sun
 Version: v0
 
-# 1. Project Overview & Design Goals - Liu
+# 1. Project Overview - Liu
 
-The aim of this project is to develop an advanced conceptual design for a low-cost vehicle model for teaching. The intent of a vehicle model is to provide a platform that students can use for labs, and which instructors can use for demonstrations and other course activities. 
-
-Ideally, we would like you to develop one platform that enables teaching for as many use-cases as possible. Specifically, this teaching/lab platform would focus on vehicle drivetrains and related mechanical components. 
-
-[Insert problem statement here]
+Existing teaching platforms for vehicle drivetrains are typically narrowly targeted, expensive, and can't directly demonstrate the mechanism principles. This makes it difficult for universities to provide affordable, hands-on lab experiences that cover a broad range of drivetrains. There is a need for a low-cost, modular vehicle model for teaching that students and instructors can use for labs and demonstrations. 
 
 # 2. Context - Shangkai Ji
 
@@ -35,6 +31,22 @@ Differentials, transfer cases, and CVTs  → discuss together ??  add together ?
 ## 2.2 Service Environment, Interest Holders, Production - Liu
 
 Who and where is the model used. How is it built and how many are built? 
+
+### 2.2.3 Service Environment
+The platform is intended for use for undergraduate teaching labs, especially for mechanical engineering design and drivetrain-related courses. Due to its relatively large size, the platform should be placed on the laboratory floor, and is used by student groups of 2–4 during a 1–3 hour lab session. 
+
+The operating environment is an indoor laboratory. Outdoor, high-temperature, high-humidity, and high-vibration conditions are not expected. The noise level must remain low enough for normal conversation during lab sessions. 
+### 2.2.4 Interest Holders
+The platform is used by students, instructors, teaching assistants, and the university. Their needs and expectations are summarized below.
+
+| Interest Holders    | Needs/Expectations                                           |
+| ------------------- | ------------------------------------------------------------ |
+| Students            | hands-on interaction, clear instructions, observable results |
+| Instructors         | Reliable, easy to explain                                    |
+| Teaching Assistants | Easy setup, robust, safe                                     |
+| University          | Low cost, durable, low maintenance, storable                 |
+### 2.2.5 Production
+This platform is suitable for small-scale production (10 to 100 pieces), which can be manufactured by university technicians themselves. The production should be able to manufactured by rapid prototyping methods (3D printing, laser cutting). The use of injection molding, custom castings, special materials, and complex electronic components should be avoided. 
 
 ## 2.3 Existing Designs - Mo
 
