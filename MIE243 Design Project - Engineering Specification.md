@@ -15,6 +15,11 @@ Existing teaching platforms for vehicle drivetrains are typically narrowly targe
 Examined which channels (such as commercial education product websites, GrabCAD, Thingiverse, YouTube DIY projects, publicly available materials from university laboratories).
 
 Selection criteria (price range, functional scope, target users, manufacturability).
+In order to understand the existing teaching schemes for automotive transmission systems and to determine the design direction for the proposed teaching model, we conducted a preliminary investigation. The investigation covered multiple information channels, including commercial teaching product websites, online CAD and 3D printing model platforms such as GrabCAD and Thingiverse, YouTube demonstrations and DIY projects, as well as relevant materials publicly released by university laboratories.
+
+For the existing designs and teaching schemes found in the investigation, we analyzed them based on multiple screening criteria, including price range, functional scope, target users, and manufacturability. The price was used to determine whether the existing schemes were suitable as low-cost teaching platforms; the functional scope was used to analyze which transmission system components and their working principles could be demonstrated by different schemes; the target users were used to determine the application scenarios of each scheme; and manufacturability was evaluated based on the complexity of manufacturing and assembly, as well as whether commercial off-the-shelf components or 3D printed components could be used for the manufacturing. 
+
+These investigation results provided a foundation for subsequently determining the project scope and service environment, comparing relevant existing designs, and formulating the design goals for the proposed teaching platform for automotive transmission systems.
 
 ## 2.1 Scope - Mo
 
@@ -59,6 +64,11 @@ List commercially available products.
 
 ## 2.4 Design Goals - Shangkai Ji
 
+After an initial investigation, it was found that the existing automotive teaching models have some limitations. For instance, the current automotive teaching models may be expensive and have complex mechanical structures, or they may only focus on showcasing a single specific system. Additionally, if all the teaching components are enclosed or the components are too close to the real vehicle's systems, it may make it difficult for students to observe the movement of the teaching automotive components and to understand how different components interact with each other.
+
+Therefore, our main design goal is to develop a low-cost, modular, and easily observable automotive teaching model. This model should enable students to observe how each component works and how they cooperate as part of a complete automotive system. In cases where it is feasible, the individual components should be able to be disassembled or interchanged, so that the same platform can showcase various different transmission system configurations.
+
+Among the teaching tools, we may use 3D-printed components such as gears. This way, our team doesn't have to purchase specially customized components online to reduce manufacturing costs. At the same time, our team can adopt detachable and interchangeable transmission system modules, enabling different components or different system configurations to be installed on the same base platform for demonstration. For example, if we want to showcase Gearboxes or Transmissions, we can directly remove this part for demonstration. When we want to present the whole thing, we can simply put these components back and demonstrate the braking method. This approach is convenient for students to understand. For rotating components, we can combine purchased metal shafts, bearings, and couplings with 3D-printed components to improve the durability and reliability of the model while maintaining a low manufacturing cost.
 
 # 3. Detailed Requirements
 
