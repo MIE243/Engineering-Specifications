@@ -23,15 +23,28 @@ These investigation results provided a foundation for subsequently determining t
 
 ## 2.1 Scope - Mo
 
-What drivetrain design we are doing specifically
+This project covers a tabletop, physically working model of a four-wheel-drive (4x4) driveline that includes a transfer case and three differentials (center, front, and rear). 
+**In scope**
+1. **Input:** The driveline must be able to be driven from the transfer case input (representing the engine), either manually or by motor, so power flows through the transfer case and differentials as in a real vehicle. 
+2. **Transfer case:** selectable 2H / 4H / 4L modes, with a high/low range reduction. The transfer case must demonstrate both full-time and part-time 4WD behaviour.
+3. **Front and rear axles:** each with a differential that can be locked and unlocked.
+4. **Driveshafts:** front and rear driveshafts linking the transfer case to both axles.
+5. **Wheels:** four wheels that students can turn, hold or let spin freely to demonstrate varying traction conditions.
+6. **Steering:** steerable front wheels, so a real turn shows why each wheel needs a different speed.
 
-1. 4x4 (4-wheel) drive, 
+**Planned Demonstrations**
+The model should demonstrate all wheels turning at the same speed while driving straight and different inner and outer wheel speeds when turning (through the differentials). The model should also be able to show what happens with the differential when traction on one wheel is significantly higher than another, and how locking the differential changes this. 
 
-2. Transfer Case, 
+The model should also be able to demonstrate switching between 2WD and 4WD as well as varying wheel speeds in High vs Low range with the transfer case, and the higher wheel torque in Low range. The model should also be able to show the effects of center differential on front vs rear axle speeds. 
 
-3. Differentials. 
+**Out of scope**
+- Engine, clutch and a multi-speed gearbox. 
+- Suspension and axle articulation, a vehicle brake system (devices for adding resistance to individual wheels for demonstrations are not excluded), and electronic traction or torque control.
+- Carrying real vehicle loads. 
 
-Differentials, transfer cases, and CVTs  → discuss together ??  add together ??
+**Future modules**
+- A CVT, or another input-stage module, can be mounted upstream of the transfer case. The input interface will be designed so it can be added later without redesigning the rest of the driveline.
+- A road-simulation base (e.g. motor-driven rollers under each wheel) to reproduce turning and traction conditions automatically.
 
 ## 2.2 Service Environment, Interest Holders, Production - Liu
 
@@ -82,6 +95,7 @@ Among the teaching tools, we may use 3D-printed components such as gears. This w
 
 ## 3.3 Constraint
 
+- Tabletop size, approx. 1/10 to 1/5 scale (to be refined during CAD sizing).
 
 # 4. Project Management & Iteration
 
