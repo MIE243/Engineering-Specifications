@@ -29,11 +29,11 @@ Functions, objectives, and constraints of the project
 
 ### Operation and modularity
 
-| Name | Description | Target | Reason | Evidence at concept stage |
-| ---- | ----------- | ------ | ------ | ------------------------- |
-|      |             |        |        |                           |
-|      |             |        |        |                           |
-|      |             |        |        |                           |
+| Name             | Description                                                                                  | Target                                                         | Reason                                                                                             | Evidence at concept stage                                 |
+| ---------------- | -------------------------------------------------------------------------------------------- | -------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- | --------------------------------------------------------- |
+| Lab Usability    | Must enable four students run the cars, change the vehicle conditions, and make comparisons. | Total test cycle ≤ 30 min (Setup 15m + Test 15m)               | Fits within a standard 3-hour lab session, ensuring students have time for data analysis.          | Draft Lab Procedure, Accessibility review                 |
+| Modular Assembly | Must allow the all sub assemblies/components to be removed and replaced                      | One student swaps one module in ≤ 5 min with ≤ 1 standard tool | Enables rapid iteration during the lab.                                                            | CAD motion simulation                                     |
+| Robustness       | Must drive every connected wheel (OUTPUT) in every allowed configuration.                    | 100% success rate across all defined configurations            | Remove any module and it still works, ensuring robustness and modularity of the drivetrain design. | Configuration matrix with a power-path check for each row |
 
 | Name | Description | Target | Reason | Evidence at concept stage |
 | ---- | ----------- | ------ | ------ | ------------------------- |
@@ -43,12 +43,12 @@ Functions, objectives, and constraints of the project
 
 ### Input, size and steering
 
-| Name | Description | Target | Reason | Evidence at concept stage |
-| ---- | ----------- | ------ | ------ | ------------------------- |
-|      |             |        |        |                           |
-|      |             |        |        |                           |
-|      |             |        |        |                           |
-|      |             |        |        |                           |
+| Name          | Description                                                                                                                                                              | Target                                      | Reason                                                                       | Evidence at concept stage                                                         |
+| ------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------- | ---------------------------------------------------------------------------- | --------------------------------------------------------------------------------- |
+| Input Drive   | The system must be driven by a realistic manual or motor input.                                                                                                          | Input torque ≤ 2.5 N·m                      | Ensures operational safety and accessibility for all students                | Required torque and speed calculation compared with the chosen input's capability |
+| Tabletop fit  | The system must operate within a standard lab tabletop area                                                                                                              | 500×250mm                                   | Tabletop use; ensures the equipment  fits standard lab benches.              | Dimensioned overall CAD envelope                                                  |
+| Storage Size  | The system should be able to be conveniently stored in standard laboratory cabinets.                                                                                     | 500×250×200mm                               | Ensures the equipment can be stored in lab cabinets when not in use.         | Dimensioned overall CAD envelope                                                  |
+| Turn Geometry | The system must demonstrate travelling on a curved path where (i) wheels on the same axle and (ii) front/rear axles travel different distances, with repeatable results. | Centreline turn radius ≤ 800 mm; repeatable | Provides the necessary kinematic conditions to observe differential behavior | Turn-geometry sketch with each wheel's path radius                                |
 
 ### Safety, cost and lifecycle
 
