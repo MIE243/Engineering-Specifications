@@ -52,11 +52,11 @@ Functions, objectives, and constraints of the project
 
 | Name | Description | Target | Reason | Evidence at concept stage |
 | ---- | ----------- | ------ | ------ | ------------------------- |
-|      |             |        |        |                           |
-|      |             |        |        |                           |
-|      |             |        |        |                           |
-|      |             |        |        |                           |
-|      |             |        |        |                           |
+| Moving-Part Safety | The system must prevent direct contact with moving gears, shafts, and pinch points while keeping key components visible. | No direct finger access to any gear mesh or other hazardous moving interface during normal operation, while the major drivetrain components remain visually observable. | Ensures safe student interaction while maintaining visibility. | CAD safety review; guard and clearance check. |
+| Mechanical Durability | Must survive foreseeable student misuse, including a stalled wheel or wheels being forced to rotate at the same speed while travelling through a turn. | No damage under 2.5 N·m input. | Prevents damage during repeated student use. | Input torque estimate and critical-part strength check. |
+| Total Cost | The system must maintain a low total manufacturing cost. | Total cost ≤ 300 CAD. | Ensures the model remains a low-cost teaching platform. | Preliminary bill of materials and estimated total cost. |
+| Manufacturability | The system should use standard commercial parts where practical; custom parts must be made using realistic low-cost methods. | A manufacturing method identified for every custom part. | Reduces cost and improves buildability. | Bill of materials identifying commercial parts, materials, and manufacturing methods for custom parts. |
+| Serviceability | The system should use standard off-the-shelf components where practical, and components subject to wear or damage should be individually replaceable. | Wear parts individually replaceable. | Extends service life and simplifies maintenance. | Exploded CAD view and assembly/access review. |
 
 # 3. Project Management & Iteration
 _This section addresses the Agile/Scrum requirements._
