@@ -8,11 +8,9 @@ Version: v1
 A summary of all of section 1 and 2 from [Engineering Specification v0](Engineering%20Specification%20v0.md)
 ## 1.1 Problem Statement
 
+Existing teaching platforms for vehicle drivetrains are typically narrowly targeted, expensive, and can't directly demonstrate the mechanism principles. This makes it difficult for universities to provide affordable, hands-on lab experiences that cover a broad range of drivetrains. There is a need for a low-cost, modular vehicle model for teaching that students and instructors can use for labs and demonstrations. 
 ## 1.2 Project Scope
 
-| **#** | **Scope Decision** | **Model** |
-| ----- | ------------------ | --------- |
-|       |                    |           |
 
 # 2. Detailed Requirements
 Functions, objectives, and constraints of the project
@@ -76,12 +74,19 @@ _This section addresses the Agile/Scrum requirements._
 
 # References
 
-[1] N. D. Mankowska, A. B. Marcinkowska, M. Waskow, R. I. Sharma, J. Kot, and P. J. Winklewski, “Critical Flicker Fusion Frequency: A Narrative Review,” *Medicina*, vol. 57, no. 10, p. 1096, 2021, doi: [10.3390/medicina57101096](https://doi.org/10.3390/medicina57101096).
+[1] N. D. Mankowska, A. B. Marcinkowska, M. Waskow, R. I. Sharma, J. Kot, and P. J. Winklewski, “Critical Flicker Fusion Frequency: A Narrative Review,” *Medicina*, vol. 57, no. 10, p. 1096, 2021, doi: [10.3390/medicina57101096](https://doi.org/10.3390/medicina57101096). 
+
 [2] Jalali, Y., Langie, G., Verburgh, A., & Dexters, A. (2025). Designing Laboratory Sessions in Science and Engineering: A Holistic Framework and Guiding Questions. SEFI 53rd Annual Conference (SEFI 2025), Tampere, Finland. [https://doi.org/10.5281/zenodo.17631469](https://doi.org/10.5281/zenodo.17631469)
+
 [3] Jeep, "4x4 FAQ and Glossary," [Jeep.com](https://jeep.com/). [Online]. Available: [https://www.jeep.com/4x4/faq-and-glossary.html](https://www.jeep.com/4x4/faq-and-glossary.html). [Accessed: Oct. 6, 2026].
+
 [4] A. Marcus, "An advanced electric motor-transmission for electric vehicles," Mechanical Technology Incorporated, Latham, NY, USA, Tech. Rep. COO/2835-3, Nov. 1977.
+
 [5] Shih, Y. C., Wang, M. J., & Chang, C. H. (1997). The effect of valve handwheel type, operating plane, and grasping posture on peak torque strength of young men and women. _Human Factors_, *39*(3), 489–496.
+
 [6] European Committee for Standardization. (2020). _Workbenches for laboratories in educational institutions — Dimensions, safety and durability requirements and test methods_ (EN 13150:2020). [https://www.cencenelec.eu/](https://www.cencenelec.eu/)
+
 [7] _Safeguarding of Machinery_, CSA Z432-16, Canadian Standards Association, Toronto, ON, Canada, 2016.
+
 [8] R. G. Budynas and J. K. Nisbett, _Shigley's Mechanical Engineering Design_, 11th ed. New York, NY, USA: McGraw-Hill, 2020, ch. 6–7.
 [9] A. Author, B. Author, and C. Author, "Design for maintainability: A review of tools and metrics," _Procedia CIRP_, vol. 100, pp. 456–461, 2021, doi: 10.1016/j.procir.2021.05.072.
