@@ -10,7 +10,14 @@ A summary of all of section 1 and 2 from [Engineering Specification v0](Engineer
 
 Existing teaching platforms for vehicle drivetrains are typically narrowly targeted, expensive, and can't directly demonstrate the mechanism principles. This makes it difficult for universities to provide affordable, hands-on lab experiences that cover a broad range of drivetrains. There is a need for a low-cost, modular vehicle model for teaching that students and instructors can use for labs and demonstrations. 
 ## 1.2 Project Scope
-
+This project covers a tabletop, physically working model of a four-wheel-drive (4x4) driveline that includes a transfer case and three differentials (center, front, and rear). 
+**In scope**
+1. **Input:** The driveline must be able to be driven from the transfer case input (representing the engine), or be driven from the wheels. 
+2. **Transfer case:** selectable 2H / 4H / 4L modes, with a high/low range reduction. The transfer case must demonstrate both full-time and part-time 4WD behaviour.
+3. **Differential**: Demonstrate the need for a differential
+4. **Driveshafts:** front and rear driveshafts linking the transfer case to both axles.
+5. **Wheels:** four wheels that students can turn, hold or let spin freely to demonstrate varying traction conditions.
+6. **Steering:** be able to show the effect of steering on the wheels
 
 # 2. Detailed Requirements
 Functions, objectives, and constraints of the project
